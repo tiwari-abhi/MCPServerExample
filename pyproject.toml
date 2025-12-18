@@ -1,0 +1,9 @@
+[project]
+name = "MCPServerExample"
+version = "0.1.0"
+description = "This MCP server has tools that send back text or images."
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp==2.13.0",
+    "httpx == 0.28.1",
+]
